@@ -1,0 +1,15 @@
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\bin\Debug\net5.0\Core.dll
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\bin\Debug\net5.0\Core.pdb
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\ekta.shrivas\demo\Skinet\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
