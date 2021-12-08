@@ -2,3 +2,9 @@ obj
 bin
 appsettings.json
 *.db
+.dll
+debug
+core.dll
+.log
+../../../core/debug
+obj
