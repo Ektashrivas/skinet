@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {}
+    "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Core\\Core.csproj": {
+    "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ekta.shrivas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Core\\obj\\",
+        "outputPath": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\ekta.shrivas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\ekta.shrivas\\Demo\\Skinet\\Core\\Core.csproj"
+              "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\ekta.shrivas\\demo\\Skinet\\Core\\Core.csproj"
               }
             }
           }
