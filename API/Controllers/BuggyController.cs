@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using API.Errors;
 using Infrastructure.Data;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
@@ -15,7 +16,12 @@ namespace API.Controllers
         {
             _context = context;
         }
-
+        [HttpGet("testauth")]
+        [Authorize]
+        public ActionResult<string> GetSecretKey()
+        {
+            return "secret stuff";
+        }
         [HttpGet("notfound")]
         public ActionResult GetNotFoundRequest()
         {
