@@ -20,7 +20,7 @@ namespace API.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly ITokenService _tokenService;
-         private readonly IMapper _mapper ;
+        private readonly IMapper _mapper;
         public AccountController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, ITokenService tokenService, IMapper mapper)
         {
             _mapper = mapper;
@@ -32,7 +32,7 @@ namespace API.Controllers
         [HttpGet]
         public async Task<ActionResult<UserDto>> GetCurrentUser()
         {
-             var user = await _userManager.FindByEmailFromClaimsPrinciple(HttpContext.User);
+            var user = await _userManager.FindByEmailFromClaimsPrinciple(HttpContext.User);
             return new UserDto
             {
                 DisplayName = user.DisplayName,
@@ -76,9 +76,9 @@ namespace API.Controllers
         public async Task<ActionResult<AddressDto>> UpdateUserAddress(AddressDto address)
         {
             var user = await _userManager.FindByUserByClaimPrincipalWithAddressAsync(HttpContext.User);
-            user.Address = _mapper.Map<AddressDto ,Address>(address);
+            user.Address = _mapper.Map<AddressDto, Address>(address);
             var result = await _userManager.UpdateAsync(user);
-            if(result.Succeeded)
+            if (result.Succeeded)
                 return Ok(_mapper.Map<Address, AddressDto>(user.Address));
             else
                 return BadRequest("Problem in updating the user");
@@ -86,6 +86,10 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDto>> Register(RegisterDto registerDto)
         {
+            if (CheckEmailExistsAsync(registerDto.Email).Result.Value)
+            {
+                return new BadRequestObjectResult(new ApiValidationErrorResponse { Errors = new[] { "Email Address is in use" } });
+            }
             var user = new AppUser
             {
                 DisplayName = registerDto.DisplayName,
